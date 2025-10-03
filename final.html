@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Added to Cart</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #6f4e37, #3fa34d); 
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      overflow: hidden; /* Prevent overflow */
+    }
+
+    h1 {
+      font-size: 5rem;
+      text-shadow: 0 0 15px rgba(0,0,0,0.4);
+      animation: pop 1s ease forwards, glow 2s infinite alternate;
+    }
+
+    @keyframes pop { /* Pop effect */
+      0% { transform: scale(0.2); opacity: 0; } /* Initial state */
+      100% { transform: scale(1); opacity: 1; } /* Final state */
+    }
+
+    @keyframes glow { /* Glow effect */
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #3fa34d, 0 0 30px #3fa34d; } /* Initial state */
+      to   { text-shadow: 0 0 20px #fff, 0 0 30px #0f0, 0 0 40px #0f0; } /* Final state */
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 50px;
+      padding: 15px 40px;
+      background: white;
+      color: #6f4e37;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #3fa34d;
+      color: white;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>✅ Added to Cart</h1>
+  <button class="btn" onclick="window.location.href='index.html'">Back to Shop</button>
+</body>
+</html>
