@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customize Your Coffee</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Customize Your Coffee ☕</h1>
+    <p class="subtitle">Make it your way and enjoy the perfect cup</p>
+  </header>
+  <main>
+    <div class="form-container">
+      <form action="cart.html" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="size">Choose Size:</label>
+        <select id="size" name="size" required>
+          <option value="tall">Tall - $3.00</option>
+          <option value="grande">Grande - $3.50</option>
+          <option value="venti">Venti - $4.00</option>
+        </select>
+
+        <label for="milk">Milk Option:</label>
+        <select id="milk" name="milk">
+          <option value="normal">Normal</option>
+          <option value="oat">Oat Milk (+$0.50)</option>
+          <option value="almond">Almond Milk (+$0.50)</option>
+          <option value="soy">Soy Milk (+$0.50)</option>
+        </select>
+
+        <fieldset>
+          <legend>Extras:</legend>
+          <label><input type="checkbox" name="extras" value="extra-shot"> Extra Shot (+$0.75)</label><br>
+          <label><input type="checkbox" name="extras" value="whipped-cream"> Whipped Cream (+$0.50)</label><br>
+          <label><input type="checkbox" name="extras" value="syrup"> Syrup (+$0.50)</label>
+        </fieldset>
+
+        <a href="final.html" class="submit">Add to My Order</a>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
