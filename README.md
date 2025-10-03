@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot 2025-10-03 130707" src="https://github.com/user-attachments/assets/357638dc-688c-47c5-8489-bfa9fca734ec" />☕ Coffee Shop Website
+☕ Coffee Shop Website
 
 A modern and responsive coffee shop website that showcases menus, prices, and user interaction features such as signup, login, and purchase simulation.
 Built with HTML and CSS this project demonstrates clean design, responsive layouts, and interactive UI/UX for a coffee-based business.
@@ -22,12 +22,11 @@ Built with HTML and CSS this project demonstrates clean design, responsive layou
 
 🖼️ Preview
 
+<img width="1814" height="968" alt="Screenshot 2025-10-03 130619" src="https://github.com/user-attachments/assets/d59ffb97-2fbb-43f7-8e25-ddf52d50ad08" />
 
-<img width="1920" height="1080" alt="Screenshot 2025-10-03 130619" src="https://github.com/user-attachments/assets/6c7d4fa4-10e2-4c38-9fa9-85a91be1637a" />
+<img width="1893" height="972" alt="Screenshot 2025-10-03 130642" src="https://github.com/user-attachments/assets/c9e41ce6-de03-4ad1-beaf-5ed77c4f3367" />
 
-<img width="1920" height="1080" alt="Screenshot 2025-10-03 130642" src="https://github.com/user-attachments/assets/e74b9ac0-10c1-49c2-84cf-1e5e13d998ed" />
-
-<img width="1920" height="1080" alt="Screenshot 2025-10-03 130707" src="https://github.com/user-attachments/assets/5c413a82-05f9-4132-b1b8-b8379aa24239" />
+<img width="1837" height="968" alt="Screenshot 2025-10-03 130707" src="https://github.com/user-attachments/assets/7f4364a1-bb01-4703-89c9-4b716a9162b1" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Technologies Used
